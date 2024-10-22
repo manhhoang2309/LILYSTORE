@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(253, 222, 229);
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    z-index: 1000 ;
+    background-color: rgb(240, 182, 196);
+    top: 0;   left: 0;    right: 0;
+    height: 70px;
+}
+.nav a{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+padding: 20px 20px;
+text-transform: uppercase; 
+color: rgb(110,48,48);
+}
+a:hover{
+    background-color: rgb(110,48,48);
+    color: rgb(253,222,229);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+}
+.Form {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 49%);
+    border: 1px solid rgb(168, 72, 72);
+    display: block;
+    padding: 20px;
+    width: 500px;
+    height: 380px;
+    background-color: white;
+    
+}
+
+#cart {
+    border: 1px solid rgb(168, 72, 72);
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 49%);
+    display: block;
+    
+}
+
+#tp {
+    padding: 1px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Top {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.FormChung {
+    flex: 1;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 6px;
+    display: block;
+    font-size: .875rem;
+}
+
+
+.form {
+    display: block;
+    border-color: black;
+    position: relative;
+    box-shadow: inset 0 2px 0 0 rgb(0 0 0 / 2%);
+    border-radius: 2px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.14);
+    transition: border-color .3s ease-in-out,box-shadow .3s ease-in-out,background-color .3s ease-in-out;
+    align-items: center;
+}
+
+.form:hover {
+    box-shadow: inset 0 2px 3px 0 rgb(0 0 0 / 5%);
+    border: 1px solid;
+    position: relative;
+    border-radius: 2px;
+    height: 40px;
+    box-sizing: border-box;
+    transition: border-color .3s ease-in-out,box-shadow .3s ease-in-out,background-color .3s ease-in-out;
+    align-items: center;
+    display: block;
+    color: rgba(0,0,0,.8);
+}
+
+.form1 {
+    color: black;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    font-size: 12px;
+    padding: 0 3px;
+    background: white;
+}
+
+.form2 {
+    height: 38px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    flex: 1;
+    outline: none;
+    font-size: 14px;
+    min-width: 0;
+    color: #222;
+    border: 0;
+    word-break: break-all;
+    line-height: normal;
+    font: inherit;
+    margin: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    font-size: 14px;
+}
+
+#price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.item img{
+    width: 30%;
+    padding: 10px;
+}
+
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    font-size: 12px;
+}
+
+.tensanpham {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.giatien {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff6600;
+}
+
+#gialast {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff6600;
+}
+
+#thanhtien {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+#button {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    background: #f60;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 0;
+    box-sizing: border-box;
+}

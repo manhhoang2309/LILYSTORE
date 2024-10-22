@@ -1,0 +1,87 @@
+*{
+    margin:0;    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    top: 0;   left: 0;    right: 0;
+    background: rgb(253,222,229);
+    box-shadow: 0  5px  10px   rgba(0,0,0. 1);
+    padding: 0px   7%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000 ;
+}
+.slideshow {
+    margin-top: 70px;
+}
+
+header  .navbar ul{
+    list-style: none;
+}
+
+header  .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header  .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(110,48,48);
+    display: block;
+}
+ 
+header  .navbar ul li a:hover{
+    background: rgb(110,48,48);
+    color: rgb(253,222,229);
+}
+
+header   .navbar ul li ul{
+    position: absolute;
+    left:0;
+    width: 200px;
+    background:rgb(253,222,229);
+    display: none;
+}
+
+header   .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid  rgb(0,0,0. 1);
+}
+
+header   .navbar ul li ul li ul{
+    left: 200px;
+    top:0;
+}
+
+header  .navbar ul li:focus-within > ul,
+header  .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar{
+    display: none;
+}
+
+head label{
+    font-size: 20px;
+    color:rgb(253,222,229)
+}
+.p{
+    font-size: 20px;
+    color: rgb(110,48,48);
+}
+
+.w3-row{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.w3-third{
+    width: 25%;
+}

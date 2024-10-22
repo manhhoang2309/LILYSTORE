@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily's Store - Gửi lời yêu thương</title><link rel="icon" type="image/x-icon" href="./Trang chủ/img/logo.jpg">
+  <link rel="stylesheet"  href="Trang chủ/index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="Trang chủ/index.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Sản Phẩm</a>
+          <ul>
+            <li><a href="HOA/hoa.html">Hoa</a></li>
+            <li><a href="CỐC/coc.html">Cốc</a></li>
+            <li><a href="ĐÈN/den.html">Đèn</a></li>
+            <li><a href="THIỆP/th.html">Thiệp</a></li>
+            <li><a href="ĐỒNG HỒ/dho.html">Đồng Hồ</a></li>
+            <li><a href="NƯỚC HOA/nch.html">Nước Hoa</a></li>
+          </ul>
+        </li>
+        <li><a href="GIOI THIEU/gioithieu.html">Giới Thiệu</a></li>
+        <li><a href="Giỏ hàng/gio hang.html">Đặt Hàng</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="home" class="w3-content slideshow">
+    <img class="slides" src="Trang chủ/img/ảnh_1.png" width="100%">
+    <img class="slides" src="Trang chủ/img/ảnh_3.png" width="100%">
+    <img class="slides" src="Trang chủ/img/ảnh_4.png" width="100%">
+    <script>
+    w3.slideshow(".slides", 1500);
+    </script>
+  </div>
+    <div class="column">
+      <div class="content">
+        <img
+        src="Trang chủ/img/cam tu cau.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Hoa Cẩm Tú Cầu</a>
+        <div class="product-price">250.000 đồng</div>
+        </h3>
+        <p>
+          Cẩm tú cầu là loài hoa tượng trưng cho sự biết ơn và chân thành, đây ắt hẳn là một món quà tuyệt vời để dành cho thầy cô nhân dịp ngày 20/11
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Hoa Cẩm Tú Cầu',250000)">Thêm giỏ hàng</a>
+      </div>
+      <div class="content">
+        <img
+        src="Trang chủ/img/hop qua thiep hoa kho.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Hộp Quà Thiệp Hoa Khô</a>
+        <div class="product-price">34.000 đồng</div>
+        </h3>
+        <p>
+          Đây là một món quà ý nghĩa nhằm ghi những tâm thư và lời chúc để nhắn gửi đến các thầy cô của bạn. Một món quà như này chắc chắn sẽ làm thầy cô của bạn thấy ấm áp khi nhận được nó.
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Thiệp hoa khô',34000)">Thêm giỏ hàng</a>
+      </div>
+      <div class="content">
+        <img
+        src="Trang chủ/img/thuy tinh gau.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Ly Thủy Tinh Gấu</a>
+        <div class="product-price">50.000 đồng</div>
+        </h3>
+        <p>
+          Bạn nghĩ sao về việc tặng cho những cô thầy thân yêu của bạn một ly nước hình gấu dẽ thương này? Tôi tin chắc rằng nó sẽ mang lại cho họ một sự thư thái vào buổi sáng sớm đấy
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Cốc thủy tinh hình con gấu', 50000 )">Thêm giỏ hàng</a>
+      </div> 
+    </div>
+    <div class="column">
+      <div class="content">
+        <img
+        src="Trang chủ/img/đèn con thỏ.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Đèn Ngủ Hình Thỏ</a>
+        <div class="product-price">130.000 đồng</div>
+        </h3>
+        <p>
+          Vào mỗi biểu tối thông thường các thầy cô phải thức đêm để soạn giáo án cho ngày hôm sau, sẽ thế nào nếu bạn tặng cho họ một chiếc đèn ngủ hình thỏ dễ thương?
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Đèn con thỏ', 130000 )">Thêm giỏ hàng</a>
+      </div>
+      <div class="content">
+        <img
+        src="Trang chủ/img/dio.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Nước Hoa Dio</a>
+        <div class="product-price">2.850.000 đồng</div>
+        </h3>
+        <p>
+          Sẽ có những giáo viên cực ưa chuộng các loại nước hoa đắt tiền và sành điệu như này. Nếu bạn có đủ kinh phi thì sao lại bói không với việc tặng cho giáo viên của bạn một chai nhỉ?
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Nước hoa Dior Joy EDP Intense', 2850000 )">Thêm giỏ hàng</a>
+      </div>
+      <div class="content">
+        <img
+        src="Trang chủ/img/đèn đám mây.jpg"
+        alt=""
+        style="width: 100%"
+        />
+        <h3>
+        <a href="#">Đèn Đám Mây</a>
+        <div class="product-price">380.000 đồng</div>
+        </h3>
+        <p>
+          Buổi đêm ai chăng muốn có một cái đèn đám mây nho nhro treo trên đầu giường nhỉ? Đặc biệt với những thầy cô bận trăm công nghìn việc với giáo án và tài liệu. Họ sẽ cảm thấy thoải mái nếu có thứ này khi đi ngủ đấy
+        </p>
+        <a href="" class="add-to-cart" onclick="SaveItem('Đèn đám mây',380000 )">Thêm giỏ hàng</a>
+      </div>
+    </div>
+  
+       
+</body>
+</html>
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily's Store - Gửi lời yêu thương</title><link rel="icon" type="image/x-icon" href="../Trang chủ/img/logo.jpg">
+    <link rel="stylesheet" href="thanhtoan.css">
+    <script src="thanhtoan.js"></script>
+</head>
+<body onload="doShowAll()">
+    <div class="nav">
+        <a href="../index.html" >Trang chủ</a>
+    </div>
+    <div class="content">
+        <form action="">
+            <div class="Form">
+           
+                <div class="Top">
+                    <p>Thông Tin Khách Hàng</p>
+                </div>
+        
+                <div class="FormChung">
+                        <div class="form">
+                             <div class="form1">Họ và tên</div>                  
+                             <input class="form2" name="Name" id="Name" type="text" placeholder="Họ và tên"  required>
+                        </div>
+                </div>
+        
+                <div class="FormChung">
+                    <div class="form">
+                         <div class="form1">Số Điện Thoại</div>
+                             <input class="form2" id="Phone" type="tel" placeholder="Số Điện Thoại" pattern="[0]{1}[0-9]{9}" required>
+                    </div>
+                </div>
+        
+                <div class="FormChung">
+                    <div class="form">
+                         <div class="form1">Email</div>
+                             <input class="form2" id="Email" type="email" placeholder="Email" required>
+                    </div>
+                </div>
+        
+                <div class="FormChung">
+                    <div class="form">
+                         <div class="form1">Địa Chỉ</div>
+                             <input class="form2" id="Address" type="text" placeholder="Địa Chỉ" required>
+                    </div>
+                </div>
+        
+                <div class="FormChung">
+                    <div class="form">
+                         <div class="form1">Ghi Chú</div>
+                         <input class="form2" type="text" placeholder="Nhập Ghi Chú (Nếu Có)">
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div id="cart">
+               
+            </div>
+              
+        </form>
+        
+    </div>
+</body>
+</html>
